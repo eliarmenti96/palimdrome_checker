@@ -6,8 +6,15 @@
     <title>Palindrome Checker</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+  <div class="grid-container">
+    <div class="plane">
+      <div class="grid"></div>
+      <div class="glow"></div>
+    </div>
+
     <main class="container">
         <h1 class="title">Is it a Palindrome?</h1>
         <div class="palindrome-div">
@@ -15,6 +22,7 @@
           </label>
           <input class="palindrome-input" id="text-input" value="" type="text">
           <button class="palindrome-btn" id="check-btn">Check</button>
+          <button class="palindrome-btn" id="clear-btn">Clear</button>
           <div class="results-div hidden" id="result"></div>
         </div>
         <div class="palindrome-definition-div">
@@ -26,7 +34,12 @@
           </p>
         </div>
       </main>
-
+      
+    <div class="plane">
+      <div class="grid"></div>
+      <div class="glow"></div>
+    </div>
+  </div>
 
     <script src="script.js"></script>
 </body>
